@@ -1,0 +1,51 @@
+body {
+    background-color: gold;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 60px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+ }
+
+ p {
+    text-align: center;
+ }
+
+section {
+  background: #222222;
+  color: white;
+  overflow: auto;
+}
+
+ a:hover {
+            background-color: #aaaaaa;
+        }
+
+        nav {
+            font-size: 1.8em;
+            float: right;
+}
+        nav a {
+            text-decoration: none;
+            color: #000000;
+            margin: 1.8em;
+            display: inline-block;
+  }
+}
+@media only screen and (max-width: 480px) {
+    #wrapper {
+        width: 95%;
+    }
+}
+        
+footer { 
+    text-align: center;
+    padding: 1em 0;
+ }
